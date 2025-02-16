@@ -624,7 +624,7 @@ footer p{
     .contenedor-grid-nosotros{
         display: grid;
         grid-template-columns: 90% ;
-        grid-template-rows: 450px 500px 400px 500px 400px 500px 400px 500px 400px 500px 400px 500px 400px;
+        grid-template-rows: 500px 500px 400px 500px 400px 500px 400px 500px 400px 500px 400px 500px 400px;
     
         grid-template-areas:
         "tituloDescripcion"
@@ -654,7 +654,7 @@ footer p{
         justify-content: center;
     }
 
-    .grid-imagen-nosotros-7{
+    #grid-imagen-nosotros-7{
         display: none;
     }
 
