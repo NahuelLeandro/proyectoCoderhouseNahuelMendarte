@@ -586,7 +586,7 @@ footer p{
     .contenedor-grid-servicios{
         display: grid;
         grid-template-columns: 90%;
-        grid-template-rows: 500px repeat(6, 450px) ;
+        grid-template-rows: 450px repeat(6, 400px) ;
     
         grid-template-areas: 
         "tituloYDescripcion "
@@ -604,6 +604,7 @@ footer p{
         /*acomoda a todos los hijos*/
         align-items: center;/*centra de forma vertical*/
         justify-items: center;/*centra de forma horizontal*/
+        margin-top: 20px;
         
     }
 
