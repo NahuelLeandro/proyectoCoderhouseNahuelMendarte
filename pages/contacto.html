@@ -53,78 +53,82 @@
 
     <main>
         <h1>Contacto</h1>
-        <p>Dejenos un mensaje, o contactanos en redes sociales, responderemos a la brevedad</p>
+        <div>
+            <h2>Contactate con nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi placeat, unde natus, numquam nam reiciendis id animi non accusamus ullam voluptatibus minima officiis quia maxime omnis cumque, ea sint ipsa!</p>
+        </div>
 
+        <form action="" method="post">
 
-        <section>
-            <p>Para contactarte por e-mail y enviarte info</p>
-            <form action="" method="post">
-
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre">
-                
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="apellido" id="apellido">
-                
-
-                <label for="pais">Pais</label>
-                <select name="" id="">
-                    <option value="">Brasil</option>
-                    <option value="">Argentina</option>
-                    <option value="">Uruguay</option>
-                </select>
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea name="mensaje" id="mensaje"></textarea>
-
-                <input type="submit" value="Enviar">
-
-
-            </form>
-        </section>
-        
-
-
-        
-        <section>
-            <p>Nuestras redes sociales donde nos podes encontrar</p>
-            <div>
-                <a href="https://www.instagram.com/" target="_blank"><img src="../imagenes/redes/instagram.png" alt="Instagram"></a>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <label for="name_form" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="name_form">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="lastName_form" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="lastName_form">
+                </div>
             </div>
-            <div>
-                <a href="https://www.facebook.com/" target="_blank"><img src="../imagenes/redes/facebook.jpg" alt="Facebook"></a>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="pepe@mail.com.ar">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="************">
+                </div>
             </div>
-            <div>
-                <a href="https://www.instagram.com/" target="_blank"><img src="../imagenes/redes/instagram.png" alt="Instagram"></a>
-            </div>
-            <div>
-                <a href="https://www.facebook.com/" target="_blank"><img src="../imagenes/redes/facebook.png" alt="Facebook"></a>
-            </div>
-        </section>
+
+            <div class="row">
+
+                <div class="col-4 col-md-3"><legend class="">Sexo</legend></div>
+                <div class="col-4 form-check col-md-3">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                    Hombre
+                    </label>
+                </div>
+                <div class="form-check col-4 col-md-3">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                    Mujer
+                    </label>
+                </div>
+
+                <div class=" col-12 col-md-3">
+                    <label class="form-label">Seleccione su pais</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Pais</option>
+                        <option value="1">Argentina</option>
+                        <option value="2">Uruguay</option>
+                        <option value="3">Brazil</option>
+                    </select>
+                </div> 
 
 
-<br><br>
+            </div>
 
 
-        
-        <!-- galeria de img -->
-        <section class="galeria_imagenes">
-            <div>
-                <img src="../imagenes/img_galeria_1.jpg" alt="img1_galeria">
+
+            <div class="input-group">
+                <span class="input-group-text">Mensaje</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
             </div>
-            <div>
-                <img src="../imagenes/img_galeria_2.jpg" alt="img2_galeria">
-            </div>
-            <div>
-                <img src="../imagenes/img_galeria_3.jpg" alt="img3_galeria">
-            </div>
-            <div>
-                <img src="../imagenes/img_galeria_4.jpg" alt="img4_galeria">
-            </div>
-        </section>
+
+            <button type="submit" class="btn boton-color">Submit</button>
+
+
+        </form>
+
+        <p>Te responderemos a la brevedad al mail que nos proporcionaste</p>
+
+
+
+
 
     </main>
-
 
     <footer>
         <section class="footer">
