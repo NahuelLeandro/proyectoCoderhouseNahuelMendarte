@@ -590,12 +590,12 @@ footer p{
     
         grid-template-areas: 
         "tituloYDescripcion "
-        "servicio1Descripcion" 
         "servicio1Foto"
-        "servicio2Descripcion"
+        "servicio1Descripcion" 
         "servicio2Foto"
-        "servicio3Descripcion"
+        "servicio2Descripcion"
         "servicio3Foto"
+        "servicio3Descripcion"
         ;
     
         justify-content: center;
