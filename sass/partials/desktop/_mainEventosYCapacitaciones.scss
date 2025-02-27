@@ -1,7 +1,18 @@
 
 // /*-------------EVENTOS Y CAPACITACIONES-----------*/
 // /*Pensado para trabajar con responsive BOOSTRAP*/
+@mixin mixinParaEventoYCapacitaciones{
 
+    background-color: white;
+    transform: scale( 1, 1 );
+    transition: background-color 1.0s ease , transform 1.0s ease;
+    &:hover{
+        background-color: $colorSecundario;
+        transform: scale( 1.1, 1.1 );
+    }
+
+
+}
 
 .mainEventosYCapacitaciones{
 
@@ -13,24 +24,16 @@
             max-height: 375px;
         }
 
-        .evento1hover{
-            background-color: white;
-            transition: background-color 1.0s ease;
+        .evento1{
+            @include mixinParaEventoYCapacitaciones();
         }
-        .evento1hover:hover{
-            background-color: $colorSecundario;
+        
+        .evento2{
+            @include mixinParaEventoYCapacitaciones();
         }
-        .evento2hover{
-            @extend .evento1hover;
-        }
-        .evento2hover:hover{
-            background-color: $colorSecundario;
-        }
-        .evento3hover{
-            @extend .evento1hover;
-        }
-        .evento3hover:hover{
-            background-color: $colorSecundario;
+
+        .evento3{
+            @include mixinParaEventoYCapacitaciones();
         }
 
     } 
@@ -43,27 +46,17 @@
         }
 
 
-        .capacitacion1hover{
-            background-color: white;
-            transition: background-color 1.0s ease;
-        }
-        .capacitacion1hover:hover{
-            background-color: $colorSecundario;
-        }
-        .capacitacion2hover{
-            @extend .capacitacion1hover;
-        }
-        .capacitacion2hover:hover{
-            background-color: $colorSecundario;
-        }
-        .capacitacion3hover{
-            @extend .capacitacion1hover;
-        }
-        .capacitacion3hover:hover{
-            background-color: $colorSecundario;
+        .capacitacion1{
+            @include mixinParaEventoYCapacitaciones();
         }
 
+        .capacitacion2{
+            @include mixinParaEventoYCapacitaciones();
+        }
 
+        .capacitacion3{
+            @include mixinParaEventoYCapacitaciones();
+        }
 
     }
 

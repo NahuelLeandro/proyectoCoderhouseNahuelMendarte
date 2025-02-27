@@ -431,36 +431,64 @@ footer .footer_2 {
   max-width: 500px;
   max-height: 375px;
 }
-.mainEventosYCapacitaciones .padreEventos .evento1hover, .mainEventosYCapacitaciones .padreEventos .evento3hover, .mainEventosYCapacitaciones .padreEventos .evento2hover {
+.mainEventosYCapacitaciones .padreEventos .evento1 {
   background-color: white;
-  transition: background-color 1s ease;
+  transform: scale(1, 1);
+  transition: background-color 1s ease, transform 1s ease;
 }
-.mainEventosYCapacitaciones .padreEventos .evento1hover:hover, .mainEventosYCapacitaciones .padreEventos .evento3hover:hover, .mainEventosYCapacitaciones .padreEventos .evento2hover:hover {
+.mainEventosYCapacitaciones .padreEventos .evento1:hover {
   background-color: rgb(255, 97, 255);
+  transform: scale(1.1, 1.1);
 }
-.mainEventosYCapacitaciones .padreEventos .evento2hover:hover {
-  background-color: rgb(255, 97, 255);
+.mainEventosYCapacitaciones .padreEventos .evento2 {
+  background-color: white;
+  transform: scale(1, 1);
+  transition: background-color 1s ease, transform 1s ease;
 }
-.mainEventosYCapacitaciones .padreEventos .evento3hover:hover {
+.mainEventosYCapacitaciones .padreEventos .evento2:hover {
   background-color: rgb(255, 97, 255);
+  transform: scale(1.1, 1.1);
+}
+.mainEventosYCapacitaciones .padreEventos .evento3 {
+  background-color: white;
+  transform: scale(1, 1);
+  transition: background-color 1s ease, transform 1s ease;
+}
+.mainEventosYCapacitaciones .padreEventos .evento3:hover {
+  background-color: rgb(255, 97, 255);
+  transform: scale(1.1, 1.1);
 }
 .mainEventosYCapacitaciones .padreCapacitaciones img {
   width: 100%;
   max-width: 500px;
   max-height: 375px;
 }
-.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion1hover, .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion3hover, .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion2hover {
+.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion1 {
   background-color: white;
-  transition: background-color 1s ease;
+  transform: scale(1, 1);
+  transition: background-color 1s ease, transform 1s ease;
 }
-.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion1hover:hover, .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion3hover:hover, .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion2hover:hover {
+.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion1:hover {
   background-color: rgb(255, 97, 255);
+  transform: scale(1.1, 1.1);
 }
-.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion2hover:hover {
-  background-color: rgb(255, 97, 255);
+.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion2 {
+  background-color: white;
+  transform: scale(1, 1);
+  transition: background-color 1s ease, transform 1s ease;
 }
-.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion3hover:hover {
+.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion2:hover {
   background-color: rgb(255, 97, 255);
+  transform: scale(1.1, 1.1);
+}
+.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion3 {
+  background-color: white;
+  transform: scale(1, 1);
+  transition: background-color 1s ease, transform 1s ease;
+}
+.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion3:hover {
+  background-color: rgb(255, 97, 255);
+  transform: scale(1.1, 1.1);
 }
 
 .mainContacto .boton-color {
