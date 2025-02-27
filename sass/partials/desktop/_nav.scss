@@ -13,21 +13,19 @@
         font-family: "Libre Baskerville", serif;
         text-transform: capitalize;
         color: auto;
-        transition: font-size 1.0 ease, color 1.0 ease, text-decoration 1.0 ease ;
+        margin-left: 10px;
+        transform: scale( 1, 1 );
+        transition: color 1.0 ease, text-decoration 1.0 ease , transform 1.0 ease;
 
 
-        //----preguntar si es posible o como
-        // a:hover{
-        //     color: white;
-        //     text-decoration: underline;
-        //     font-size: 1.5rem;
-        // }
-
-    }
-    .nav-itemNosotros:hover{
+        &:hover{
             color: white;
             text-decoration: underline;
-            font-size: 1.5rem;
+            transform: scale( 1.2, 1.2 );
+        }
+
+        
+
     }
 
     .nav-itemProductos{
@@ -42,21 +40,6 @@
     .nav-itemContacto{
         @extend .nav-itemNosotros;
     }
-
-    //este hover toma a todas las class nav-item, entiendo que es por el extend en cada una. pero no se por que toma como que el hover se extiende tambien del .nav-itemNosotros original cuando esta por afuera de el. igual funciona
-    
-
-
-
-
-
-
-
-
-    // .nav-itemProductos:hover{
-    //     @extend .nav-itemNosotros a:hover;
-    // }
-
 
 }
 

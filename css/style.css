@@ -124,12 +124,14 @@ p {
   font-family: "Libre Baskerville", serif;
   text-transform: capitalize;
   color: auto;
-  transition: font-size 1 ease, color 1 ease, text-decoration 1 ease;
+  margin-left: 10px;
+  transform: scale(1, 1);
+  transition: color 1 ease, text-decoration 1 ease, transform 1 ease;
 }
 .navegador_y_logo .nav-itemNosotros:hover, .navegador_y_logo .nav-itemContacto:hover, .navegador_y_logo .nav-itemEventosYCapacitaciones:hover, .navegador_y_logo .nav-itemServicios:hover, .navegador_y_logo .nav-itemProductos:hover {
   color: white;
   text-decoration: underline;
-  font-size: 1.5rem;
+  transform: scale(1.2, 1.2);
 }
 footer {
   background-color: rgba(0, 255, 255, 0.5);
