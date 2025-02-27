@@ -16,16 +16,13 @@
         margin-left: 10px;
         transform: scale( 1, 1 );
         transition: color 1.0 ease, text-decoration 1.0 ease , transform 1.0 ease;
-
-
+        
         &:hover{
             color: white;
             text-decoration: underline;
             transform: scale( 1.2, 1.2 );
         }
-
-        
-
+    
     }
 
     .nav-itemProductos{
