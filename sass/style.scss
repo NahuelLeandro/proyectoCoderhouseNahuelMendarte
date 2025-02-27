@@ -1,0 +1,36 @@
+
+@import "partials/variables";
+/*-----------------------DEKSTOP------------------------*/
+
+@import "partials/desktop/bodyOtro";
+
+
+@import "partials/desktop/general";
+@import "partials/desktop/nav";
+@import "partials/desktop/footer";
+@import "partials/desktop/galeriaIMG";
+
+
+//Paginas
+@import "partials/desktop/mainIndex";
+@import "partials/desktop/mainNosotros";
+@import "partials/desktop/mainProductos";
+@import "partials/desktop/mainServicios";
+@import "partials/desktop/mainEventosYCapacitaciones";
+@import "partials/desktop/mainContacto";
+
+
+/*----------------MEDIA QUERY mobile hasta 500px-----------------*/
+// /*MEDIA QUERY*/
+// /* mobile hasta 500px */
+@import "partials/movil/movilNav";
+@import "partials/movil/movilGeneral";
+@import "partials/movil/movilGaleriaIMG";
+
+//Paginas con MEDIA QUERY
+@import "partials/movil/movilMainIndex";
+@import "partials/movil/movilMainNosotros";
+@import "partials/movil/movilMainProductos";
+@import "partials/movil/movilMainServicios";
+@import "partials/movil/movilMainEventosYCapacitaciones";
+@import "partials/movil/movilMainContacto";

@@ -2,75 +2,6 @@
 background-color: rgba(0, 255, 255, 0.3 );
 */
 /*-----------------------DEKSTOP------------------------*/
-.bodyOtro .box {
-  width: 100px;
-  height: 100px;
-  background-color: green;
-  position: relative;
-  animation: move 5s infinite;
-}
-@keyframes move {
-  0% {
-    transform: translateX(0) translateY(0) translateX(0);
-  }
-  33% {
-    transform: translateX(100px) translateY(0) translateX(0);
-  }
-  66% {
-    transform: translateX(100px) translateY(100px) translateX(0);
-  }
-  100% {
-    transform: translateX(0) translateY(100px) translateX(0);
-  }
-}
-.bodyOtro .linear-gradient {
-  margin-top: 200px;
-  width: 100%;
-  height: 200px;
-  background-image: linear-gradient(to right, red, yellow);
-}
-.bodyOtro .radial-gradient {
-  width: 100%;
-  height: 200px;
-  background-image: radial-gradient(circle, red, gold);
-}
-.bodyOtro .translate {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  transform: translate(50px, 100px);
-}
-.bodyOtro .rotate {
-  width: 100px;
-  height: 100px;
-  background-color: green;
-  transform: rotate(45deg);
-}
-.bodyOtro .scale {
-  width: 100px;
-  height: 100px;
-  background-color: purple;
-  transform: scale(2, 1.5);
-}
-.bodyOtro .skew {
-  width: 100px;
-  height: 100px;
-  background-color: orange;
-  transform: skew(20deg, 10deg);
-}
-.bodyOtro .fadeIn {
-  opacity: 0;
-  animation: myAnimation 2s infinite;
-}
-@keyframes myAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 /*reset de css || elimina los estilos por defecto de los navegadores */
 * {
   margin: 0;
@@ -116,23 +47,23 @@ p {
 }
 
 .navegador_y_logo {
-  background-image: linear-gradient(to left, rgba(0, 255, 255, 0.5), rgba(0, 255, 255, 0.05));
+  background-color: rgba(0, 255, 255, 0.3);
 }
-.navegador_y_logo .nav-itemNosotros, .navegador_y_logo .nav-itemContacto, .navegador_y_logo .nav-itemEventosYCapacitaciones, .navegador_y_logo .nav-itemServicios, .navegador_y_logo .nav-itemProductos {
+.navegador_y_logo .nav-item a {
   font-size: 1.3rem;
+}
+.navegador_y_logo .nav-item a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.navegador_y_logo nav a {
   text-decoration: none;
   font-family: "Libre Baskerville", serif;
   text-transform: capitalize;
-  color: auto;
-  transition: font-size 1 ease, color 1 ease, text-decoration 1 ease;
 }
-.navegador_y_logo .nav-itemNosotros:hover, .navegador_y_logo .nav-itemContacto:hover, .navegador_y_logo .nav-itemEventosYCapacitaciones:hover, .navegador_y_logo .nav-itemServicios:hover, .navegador_y_logo .nav-itemProductos:hover {
-  color: white;
-  text-decoration: underline;
-  font-size: 1.5rem;
-}
+
 footer {
-  background-color: rgba(0, 255, 255, 0.5);
+  background-color: rgba(0, 255, 255, 0.3);
   height: 170px;
   display: flex;
   flex-direction: column;
@@ -153,7 +84,7 @@ footer .footer_2 {
 
 /* MINI GALERIA DE IMG*/
 .galeria_imagenes {
-  background-color: rgba(0, 255, 255, 0.5);
+  background-color: rgba(0, 255, 255, 0.3);
   margin: 5px;
   display: flex;
   flex-wrap: nowrap;
@@ -305,36 +236,35 @@ footer .footer_2 {
   align-items: center; /*vertical*/
   text-align: center;
 }
-.mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_1, .mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_3, .mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_2 {
+.mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_1 {
   grid-area: servicio1Descripcion;
   display: flex;
   flex-direction: column;
   justify-content: center; /*horisontal*/
   align-items: center; /*vertical*/
   text-align: center;
-  background-color: white;
-  transition: background-color 1s ease;
-}
-.mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_1:hover, .mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_3:hover, .mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_2:hover {
-  background-color: rgb(255, 97, 255);
 }
 .mainServicios .contenedor-grid-servicios .grid_img_servicio_1 {
   grid-area: servicio1Foto;
 }
 .mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_2 {
   grid-area: servicio2Descripcion;
-}
-.mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_2:hover {
-  background-color: rgb(255, 97, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*horisontal*/
+  align-items: center; /*vertical*/
+  text-align: center;
 }
 .mainServicios .contenedor-grid-servicios .grid_img_servicio_2 {
   grid-area: servicio2Foto;
 }
 .mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_3 {
   grid-area: servicio3Descripcion;
-}
-.mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_3:hover {
-  background-color: rgb(255, 97, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*horisontal*/
+  align-items: center; /*vertical*/
+  text-align: center;
 }
 .mainServicios .contenedor-grid-servicios .grid_img_servicio_3 {
   grid-area: servicio3Foto;
@@ -345,36 +275,10 @@ footer .footer_2 {
   max-width: 500px;
   max-height: 375px;
 }
-.mainEventosYCapacitaciones .padreEventos .evento1hover, .mainEventosYCapacitaciones .padreEventos .evento3hover, .mainEventosYCapacitaciones .padreEventos .evento2hover {
-  background-color: white;
-  transition: background-color 1s ease;
-}
-.mainEventosYCapacitaciones .padreEventos .evento1hover:hover, .mainEventosYCapacitaciones .padreEventos .evento3hover:hover, .mainEventosYCapacitaciones .padreEventos .evento2hover:hover {
-  background-color: rgb(255, 97, 255);
-}
-.mainEventosYCapacitaciones .padreEventos .evento2hover:hover {
-  background-color: rgb(255, 97, 255);
-}
-.mainEventosYCapacitaciones .padreEventos .evento3hover:hover {
-  background-color: rgb(255, 97, 255);
-}
 .mainEventosYCapacitaciones .padreCapacitaciones img {
   width: 100%;
   max-width: 500px;
   max-height: 375px;
-}
-.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion1hover, .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion3hover, .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion2hover {
-  background-color: white;
-  transition: background-color 1s ease;
-}
-.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion1hover:hover, .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion3hover:hover, .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion2hover:hover {
-  background-color: rgb(255, 97, 255);
-}
-.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion2hover:hover {
-  background-color: rgb(255, 97, 255);
-}
-.mainEventosYCapacitaciones .padreCapacitaciones .capacitacion3hover:hover {
-  background-color: rgb(255, 97, 255);
 }
 
 .mainContacto .boton-color {

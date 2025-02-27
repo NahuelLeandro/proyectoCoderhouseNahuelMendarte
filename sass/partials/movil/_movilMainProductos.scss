@@ -1,0 +1,36 @@
+// PARA LA PAGINA DE PRODUCTOS PENSADA PARA TRABAJAR CON FLEX 
+
+
+
+@media( max-width:500px ){
+
+    .mainProductos{
+
+        .contenedorMainProductos{
+
+            flex-wrap: wrap;
+        
+            .sectionExplicacionProductos{
+                text-align: center;
+            }
+        
+            .seccionImagenYDescripcionProductos{
+                display: flex;
+                flex-direction: column;
+                border-bottom: 1px solid blueviolet;
+                border-top: 1px solid blueviolet;
+                margin: 10px 0px;
+                justify-content: center;
+                align-items: center;
+
+                .seccionImagenYDescripcionProductos_Descripcion{
+                    width: 100%;
+                    margin: 10px 0px;
+                }
+
+
+            }
+
+        }
+    }
+}

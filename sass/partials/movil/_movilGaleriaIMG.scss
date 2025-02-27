@@ -1,0 +1,31 @@
+
+
+@media( max-width:500px ){
+
+    .galeria_imagenes{
+
+        background-color: rgba(0, 0, 255, 0.2);
+        
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    
+        justify-content: space-around;/*horisontal*/
+        align-items: center;/*vertical*/
+
+        max-width: 500px;
+
+        .galeria_imagenes_item{
+            max-width: 23%;
+            max-height: 23%;
+
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+        }
+    
+    }
+
+}

@@ -1,0 +1,54 @@
+//PARA LA PAJINA DE PRODUCTOS PENSADA PARA TRABAJAR CON FLEX
+
+.mainProductos{
+
+    .contenedorMainProductos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+
+        .sectionExplicacionProductos {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;/*horisontal*/
+            align-items: center;/*vertical*/
+        }
+        
+        
+        .seccionImagenYDescripcionProductos{
+            display: flex;
+            flex-direction: row;
+            border-bottom: 1px solid blueviolet;
+            border-top: 1px solid blueviolet;
+            margin: 1px;
+            justify-content: space-around;
+            align-items: center;
+
+            .seccionImagenYDescripcionProductos_carousel{
+                max-width: 500px;
+                max-height: 375px;
+
+                .carousel-item{
+                    img{
+                        max-width: 500px;
+                        max-height: 375px;
+                    }
+                } 
+                
+            }
+            .seccionImagenYDescripcionProductos_Descripcion{
+                width: 50%;
+            }
+
+
+
+        }
+
+    }
+
+}
+
+
+

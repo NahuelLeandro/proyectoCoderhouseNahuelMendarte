@@ -1,0 +1,99 @@
+
+//PARA LA PAJINA DE SERVICIOS PENSADA PARA TRABAJAR CON GRID
+
+.mainServicios{
+
+
+    .contenedor-grid-servicios{
+        display: grid;
+        grid-template-columns: 55% 35%;
+        grid-template-rows: 300px repeat(3, 300px) ;
+    
+        grid-template-areas: 
+        "tituloYDescripcion tituloYDescripcion"
+        "servicio1Descripcion servicio1Foto"
+        "servicio2Descripcion servicio2Foto"
+        "servicio3Descripcion servicio3Foto";
+    
+        justify-content: center;
+    
+        
+        /*acomoda a todos los hijos*/
+        align-items: center;/*centra de forma vertical*/
+        justify-items: center;/*centra de forma horizontal*/
+
+
+
+        .tituloYDescripcionServicios{
+            grid-area: tituloYDescripcion ;
+            display: flex;
+            flex-direction: column;
+        
+            justify-content: center;/*horisontal*/
+            align-items: center;/*vertical*/
+            text-align: center;
+        
+        }
+
+        .gridDescripcionYTituloServicio_1{
+            grid-area: servicio1Descripcion;
+            display: flex;
+            flex-direction: column;
+        
+            justify-content: center;/*horisontal*/
+            align-items: center;/*vertical*/
+            text-align: center;
+
+            background-color: white;
+            transition: background-color 1.0s ease;
+
+
+        }
+        .gridDescripcionYTituloServicio_1:hover{
+            background-color: $colorSecundario;
+        }
+        
+        
+        .grid_img_servicio_1{
+            grid-area: servicio1Foto;
+        }
+        
+        
+        
+        
+        .gridDescripcionYTituloServicio_2{
+
+            @extend .gridDescripcionYTituloServicio_1;
+            grid-area: servicio2Descripcion;
+
+        }
+        .gridDescripcionYTituloServicio_2:hover{
+            background-color: $colorSecundario;
+        }
+
+
+        .grid_img_servicio_2{
+            grid-area: servicio2Foto;
+        }
+        
+        
+        .gridDescripcionYTituloServicio_3{
+            
+            @extend .gridDescripcionYTituloServicio_1;
+            grid-area: servicio3Descripcion;
+
+        }
+        .gridDescripcionYTituloServicio_3:hover{
+            background-color: $colorSecundario;
+        }
+
+
+
+        .grid_img_servicio_3{
+            grid-area: servicio3Foto;
+        }
+        
+
+
+    }
+}

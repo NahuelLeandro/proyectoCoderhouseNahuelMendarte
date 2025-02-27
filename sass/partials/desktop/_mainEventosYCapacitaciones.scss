@@ -1,0 +1,70 @@
+
+// /*-------------EVENTOS Y CAPACITACIONES-----------*/
+// /*Pensado para trabajar con responsive BOOSTRAP*/
+
+
+.mainEventosYCapacitaciones{
+
+
+    .padreEventos{
+        img{
+            width: 100%;
+            max-width: 500px;
+            max-height: 375px;
+        }
+
+        .evento1hover{
+            background-color: white;
+            transition: background-color 1.0s ease;
+        }
+        .evento1hover:hover{
+            background-color: $colorSecundario;
+        }
+        .evento2hover{
+            @extend .evento1hover;
+        }
+        .evento2hover:hover{
+            background-color: $colorSecundario;
+        }
+        .evento3hover{
+            @extend .evento1hover;
+        }
+        .evento3hover:hover{
+            background-color: $colorSecundario;
+        }
+
+    } 
+    
+    .padreCapacitaciones{
+        img{
+            width: 100%;
+            max-width: 500px;
+            max-height: 375px;
+        }
+
+
+        .capacitacion1hover{
+            background-color: white;
+            transition: background-color 1.0s ease;
+        }
+        .capacitacion1hover:hover{
+            background-color: $colorSecundario;
+        }
+        .capacitacion2hover{
+            @extend .capacitacion1hover;
+        }
+        .capacitacion2hover:hover{
+            background-color: $colorSecundario;
+        }
+        .capacitacion3hover{
+            @extend .capacitacion1hover;
+        }
+        .capacitacion3hover:hover{
+            background-color: $colorSecundario;
+        }
+
+
+
+    }
+
+}

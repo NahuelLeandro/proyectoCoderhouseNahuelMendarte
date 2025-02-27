@@ -1,0 +1,22 @@
+
+
+
+/* MINI GALERIA DE IMG*/
+.galeria_imagenes{
+    background-color: $colorPrincipal;
+    margin: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    justify-content: space-around;/*horisontal*/
+    align-items: center;/*vertical*/
+
+    padding: 20px 0;
+    
+    img{
+        max-width: 250px;
+        max-height: 200px;
+    }
+
+}

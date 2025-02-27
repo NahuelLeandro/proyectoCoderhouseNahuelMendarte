@@ -1,0 +1,25 @@
+
+
+@media( max-width:500px ){
+    
+    .navegador_y_logo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+
+
+    }
+
+}
