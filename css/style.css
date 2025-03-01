@@ -197,21 +197,26 @@ p {
   transform: scale(1.2, 1.2);
 }
 
-footer {
+.footer {
   background-color: rgba(0, 255, 255, 0.5);
-  height: 170px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   /* flex-flow: row nowrap; */
   align-items: center; /*VERTICAL */
   justify-content: center; /*horisontal*/
+  text-align: center;
+  margin-top: 20px;
 }
-footer p {
+.footer .footer_1 {
+  width: 40%;
+}
+.footer .footer_1 p {
   text-align: center;
 }
-footer .footer_2 {
-  width: 50%;
+.footer .footer_2 {
+  width: 40%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -220,7 +225,7 @@ footer .footer_2 {
 /* MINI GALERIA DE IMG*/
 .galeria_imagenes {
   background-color: rgba(0, 255, 255, 0.5);
-  margin: 5px;
+  margin: 20px 0px;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -246,7 +251,7 @@ footer .footer_2 {
 .mainNosotros .contenedor-grid-nosotros {
   display: grid;
   grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 300px repeat(6, 500px);
+  grid-template-rows: 350px 400px 300px 400px 500px 400px 500px;
   grid-template-areas: "tituloDescripcion tituloDescripcion tituloDescripcion" "fotoNosotros1 textoNosotros1 textoNosotros1" "fotoNosotros1 fotoNosotros2 fotoNosotros2" "textoNosotros2 fotoNosotros3 textoNosotros3" "fotoNosotros4 fotoNosotros4 textoNosotros4" "fotoNosotros5 textoNosotros5 fotoNosotros6" "textoNosotros6 fotoNosotros7 fotoNosotros7";
   justify-content: center;
   align-items: center;
@@ -331,15 +336,17 @@ footer .footer_2 {
   flex-wrap: nowrap;
   justify-content: center; /*horisontal*/
   align-items: center; /*vertical*/
+  margin: 20px 0px;
 }
 .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid blueviolet;
   border-top: 1px solid blueviolet;
-  margin: 1px;
+  margin: 20px 0px;
   justify-content: space-around;
   align-items: center;
+  height: 600px;
 }
 .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos .seccionImagenYDescripcionProductos_carousel {
   max-width: 500px;
@@ -433,6 +440,7 @@ footer .footer_2 {
 }
 .mainEventosYCapacitaciones .padreEventos .evento1 {
   background-color: white;
+  margin: 40px 0px;
   transform: scale(1, 1);
   transition: background-color 1s ease, transform 1s ease;
 }
@@ -442,6 +450,7 @@ footer .footer_2 {
 }
 .mainEventosYCapacitaciones .padreEventos .evento2 {
   background-color: white;
+  margin: 40px 0px;
   transform: scale(1, 1);
   transition: background-color 1s ease, transform 1s ease;
 }
@@ -451,6 +460,7 @@ footer .footer_2 {
 }
 .mainEventosYCapacitaciones .padreEventos .evento3 {
   background-color: white;
+  margin: 40px 0px;
   transform: scale(1, 1);
   transition: background-color 1s ease, transform 1s ease;
 }
@@ -465,6 +475,7 @@ footer .footer_2 {
 }
 .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion1 {
   background-color: white;
+  margin: 40px 0px;
   transform: scale(1, 1);
   transition: background-color 1s ease, transform 1s ease;
 }
@@ -474,6 +485,7 @@ footer .footer_2 {
 }
 .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion2 {
   background-color: white;
+  margin: 40px 0px;
   transform: scale(1, 1);
   transition: background-color 1s ease, transform 1s ease;
 }
@@ -483,6 +495,7 @@ footer .footer_2 {
 }
 .mainEventosYCapacitaciones .padreCapacitaciones .capacitacion3 {
   background-color: white;
+  margin: 40px 0px;
   transform: scale(1, 1);
   transition: background-color 1s ease, transform 1s ease;
 }
@@ -537,6 +550,31 @@ footer .footer_2 {
     max-height: 100%;
   }
 }
+.footer {
+  background-color: rgba(0, 255, 255, 0.5);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* flex-flow: row nowrap; */
+  align-items: center; /*VERTICAL */
+  justify-content: center; /*horisontal*/
+  text-align: center;
+  margin-top: 20px;
+}
+.footer .footer_1 {
+  width: 40%;
+}
+.footer .footer_1 p {
+  text-align: center;
+}
+.footer .footer_2 {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 @media (max-width: 500px) {
   #img_home {
     max-width: 100%;

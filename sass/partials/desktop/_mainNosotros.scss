@@ -12,8 +12,8 @@
 
         display: grid;
         grid-template-columns: 30% 30% 30% ;
-        grid-template-rows: 300px repeat(6, 500px);
-    
+        grid-template-rows: 350px 400px 300px 400px 500px 400px 500px ;
+        //repeat(6, 500px)
         grid-template-areas:
         "tituloDescripcion tituloDescripcion tituloDescripcion"
         "fotoNosotros1 textoNosotros1 textoNosotros1"
