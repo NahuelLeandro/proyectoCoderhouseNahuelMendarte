@@ -238,14 +238,18 @@ p {
   max-height: 200px;
 }
 
-.mainIndex .precentacion_home {
+.mainIndex .imgYPrecentacion {
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
+  justify-content: center;
 }
-.mainIndex #img_home {
-  max-width: 100%;
+.mainIndex .imgYPrecentacion .precentacion_home h2 {
+  text-align: center;
+}
+.mainIndex .imgYPrecentacion .precentacion_home p {
+  text-align: left;
 }
 
 .mainNosotros .contenedor-grid-nosotros {
@@ -504,6 +508,15 @@ p {
   transform: scale(1.1, 1.1);
 }
 
+.mainContacto div {
+  text-align: center;
+}
+.mainContacto p {
+  text-align: center;
+}
+.mainContacto .formulario {
+  margin: 0px 40px;
+}
 .mainContacto .boton-color {
   background-color: rgba(0, 255, 255, 0.3);
 }
@@ -584,7 +597,7 @@ p {
   .mainNosotros .contenedor-grid-nosotros {
     display: grid;
     grid-template-columns: 90%;
-    grid-template-rows: 600px 500px 400px 500px 400px 500px 400px 500px 400px 500px 400px 500px 400px;
+    grid-template-rows: 700px 400px 500px 400px 350px 400px 300px 400px 300px 400px 300px 400px 250px;
     grid-template-areas: "tituloDescripcion" "fotoNosotros1" "textoNosotros1" "fotoNosotros2" "textoNosotros2" "fotoNosotros3" "textoNosotros3" "fotoNosotros4" "textoNosotros4" "fotoNosotros5" "textoNosotros5" "fotoNosotros6" "textoNosotros6";
     justify-content: center;
     align-items: center;
@@ -600,19 +613,21 @@ p {
 }
 @media (max-width: 500px) {
   .mainProductos .contenedorMainProductos {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
   }
   .mainProductos .contenedorMainProductos .sectionExplicacionProductos {
     text-align: center;
   }
   .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos {
+    margin-top: -100px;
+    margin: 20px 0px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid blueviolet;
-    border-top: 1px solid blueviolet;
-    margin: 10px 0px;
-    justify-content: center;
-    align-items: center;
+    border-bottom: none;
+    border-top: none;
+    justify-content: start;
   }
   .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos .seccionImagenYDescripcionProductos_Descripcion {
     width: 100%;
@@ -623,7 +638,7 @@ p {
   .mainServicios .contenedor-grid-servicios {
     display: grid;
     grid-template-columns: 90%;
-    grid-template-rows: 450px repeat(6, 400px);
+    grid-template-rows: 450px 400px 400px 300px 300px 300px 400px;
     grid-template-areas: "tituloYDescripcion " "servicio1Foto" "servicio1Descripcion" "servicio2Foto" "servicio2Descripcion" "servicio3Foto" "servicio3Descripcion";
     justify-content: center;
     /*acomoda a todos los hijos*/

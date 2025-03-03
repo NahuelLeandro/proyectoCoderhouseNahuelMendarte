@@ -8,20 +8,24 @@
 
         .contenedorMainProductos{
 
-            flex-wrap: wrap;
-        
+            display: flex;
+            flex-direction: column;
+
             .sectionExplicacionProductos{
+                
                 text-align: center;
+                //margin-top: -30px;
             }
         
             .seccionImagenYDescripcionProductos{
+                margin-top: -100px;
+                margin: 20px 0px;
+                height: 1000px;
                 display: flex;
                 flex-direction: column;
-                border-bottom: 1px solid blueviolet;
-                border-top: 1px solid blueviolet;
-                margin: 10px 0px;
-                justify-content: center;
-                align-items: center;
+                border-bottom: none;
+                border-top: none;
+                justify-content: start;
 
                 .seccionImagenYDescripcionProductos_Descripcion{
                     width: 100%;
@@ -29,7 +33,21 @@
                 }
 
 
+
             }
+
+            // #primerSeccionImagenYDescripcionProductos{
+            //     margin-bottom: -150px;
+            //     background-color: aqua;
+            // }
+            // #segundoSeccionImagenYDescripcionProductos{
+            //     margin-bottom: -300px;
+            // }
+            // #tercerSeccionImagenYDescripcionProductos{
+            //     margin-bottom: -150px;
+
+            // }
+
 
         }
     }
