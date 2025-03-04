@@ -25,7 +25,7 @@
 
     .contenedor-grid-servicios{
         display: grid;
-        grid-template-columns: 55% 35%;
+        grid-template-columns: 50% 40%;
         grid-template-rows: 300px repeat(3, 300px) ;
     
         grid-template-areas: 
@@ -62,6 +62,9 @@
         
         .grid_img_servicio_1{
             grid-area: servicio1Foto;
+            width: 50%;
+            max-width: 500px;
+            max-height: 375px;
         }
         
         .gridDescripcionYTituloServicio_2{
@@ -71,6 +74,9 @@
 
         .grid_img_servicio_2{
             grid-area: servicio2Foto;
+            width: 50%;
+            max-width: 500px;
+            max-height: 375px;
         }
                 
         .gridDescripcionYTituloServicio_3{
@@ -80,6 +86,9 @@
 
         .grid_img_servicio_3{
             grid-area: servicio3Foto;
+            width: 50%;
+            max-width: 500px;
+            max-height: 375px;
         }
         
 

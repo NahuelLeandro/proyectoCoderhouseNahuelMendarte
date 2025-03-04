@@ -224,7 +224,7 @@ p {
 
 /* MINI GALERIA DE IMG*/
 .galeria_imagenes {
-  background-color: rgba(0, 255, 255, 0.5);
+  background-color: rgba(0, 0, 255, 0.2);
   margin: 20px 0px;
   display: flex;
   flex-wrap: nowrap;
@@ -353,12 +353,13 @@ p {
   height: 600px;
 }
 .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos .seccionImagenYDescripcionProductos_carousel {
+  width: 30%;
   max-width: 500px;
   max-height: 375px;
 }
 .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos .seccionImagenYDescripcionProductos_carousel .carousel-item img {
-  max-width: 500px;
-  max-height: 375px;
+  width: 500px;
+  height: 375px;
 }
 .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos .seccionImagenYDescripcionProductos_Descripcion {
   width: 50%;
@@ -366,7 +367,7 @@ p {
 
 .mainServicios .contenedor-grid-servicios {
   display: grid;
-  grid-template-columns: 55% 35%;
+  grid-template-columns: 50% 40%;
   grid-template-rows: 300px repeat(3, 300px);
   grid-template-areas: "tituloYDescripcion tituloYDescripcion" "servicio1Descripcion servicio1Foto" "servicio2Descripcion servicio2Foto" "servicio3Descripcion servicio3Foto";
   justify-content: center;
@@ -399,6 +400,9 @@ p {
 }
 .mainServicios .contenedor-grid-servicios .grid_img_servicio_1 {
   grid-area: servicio1Foto;
+  width: 50%;
+  max-width: 500px;
+  max-height: 375px;
 }
 .mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_2 {
   grid-area: servicio2Descripcion;
@@ -417,6 +421,9 @@ p {
 }
 .mainServicios .contenedor-grid-servicios .grid_img_servicio_2 {
   grid-area: servicio2Foto;
+  width: 50%;
+  max-width: 500px;
+  max-height: 375px;
 }
 .mainServicios .contenedor-grid-servicios .gridDescripcionYTituloServicio_3 {
   grid-area: servicio3Descripcion;
@@ -435,6 +442,9 @@ p {
 }
 .mainServicios .contenedor-grid-servicios .grid_img_servicio_3 {
   grid-area: servicio3Foto;
+  width: 50%;
+  max-width: 500px;
+  max-height: 375px;
 }
 
 .mainEventosYCapacitaciones .padreEventos img {
@@ -629,6 +639,9 @@ p {
     border-top: none;
     justify-content: start;
   }
+  .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos .seccionImagenYDescripcionProductos_carousel {
+    width: 80%;
+  }
   .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos .seccionImagenYDescripcionProductos_Descripcion {
     width: 100%;
     margin: 10px 0px;
@@ -638,7 +651,7 @@ p {
   .mainServicios .contenedor-grid-servicios {
     display: grid;
     grid-template-columns: 90%;
-    grid-template-rows: 450px 400px 400px 300px 300px 300px 400px;
+    grid-template-rows: 500px 400px 450px 450px 400px 350px 450px;
     grid-template-areas: "tituloYDescripcion " "servicio1Foto" "servicio1Descripcion" "servicio2Foto" "servicio2Descripcion" "servicio3Foto" "servicio3Descripcion";
     justify-content: center;
     /*acomoda a todos los hijos*/
@@ -648,6 +661,15 @@ p {
   }
   .mainServicios .contenedor-grid-servicios img {
     width: 90%;
+  }
+  .mainServicios .contenedor-grid-servicios .grid_img_servicio_1 {
+    width: 80%;
+  }
+  .mainServicios .contenedor-grid-servicios .grid_img_servicio_2 {
+    width: 80%;
+  }
+  .mainServicios .contenedor-grid-servicios .grid_img_servicio_3 {
+    width: 80%;
   }
 }
 @media (max-width: 500px) {
