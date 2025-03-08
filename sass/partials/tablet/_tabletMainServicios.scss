@@ -1,11 +1,11 @@
 
  //PARA LA PAJINA DE SERVICIOS PENSADA PARA TRABAJAR CON GRID
-@media( max-width: $widtMovil ){
+@media( max-width: $widtTablet ){
 
     .mainServicios{
 
         width: 100%;
-        max-width: $widtMovil;
+        max-width: $widtTablet;
         
         .contenedor-grid-servicios{
             display: grid;

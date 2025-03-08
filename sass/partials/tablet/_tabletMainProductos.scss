@@ -2,12 +2,12 @@
 
 
 
-@media( max-width: $widtMovil ){
+@media( max-width: $widtTablet ){
 
     .mainProductos{
 
         width: 100%;
-        max-width: $widtMovil;
+        max-width: $widtTablet;
 
         .contenedorMainProductos{
 

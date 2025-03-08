@@ -3,38 +3,34 @@
     // /* PENSADO PARA TRABAJAR CON GRID */
 
 
-@media( max-width: $widtMovil ){
+@media( max-width: $widtTablet ){
     
     .mainNosotros{
-        width: 100%;
-        max-width: $widtMovil;
-        
+        width: 99%;
+        max-width: $widtTablet;
 
         .contenedor-grid-nosotros{
             display: grid;
-            grid-template-columns: 90% ;
-            grid-template-rows: 700px 400px 500px 400px 350px 400px 300px 400px 300px 400px 300px 400px 250px;
+            
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows:  500px 500px 500px 500px 500px 500px 500px;
         
             grid-template-areas:
-            "tituloDescripcion"
             
-            "fotoNosotros1"
-            "textoNosotros1"
+            "tituloDescripcion tituloDescripcion"
             
-            "fotoNosotros2"
-            "textoNosotros2" 
+            "fotoNosotros1 textoNosotros1"
             
-            "fotoNosotros3"
-            "textoNosotros3"
+            "textoNosotros2 fotoNosotros2"
             
-            "fotoNosotros4"
-            "textoNosotros4"
+            "fotoNosotros3 textoNosotros3"
             
-            "fotoNosotros5" 
-            "textoNosotros5" 
+            "textoNosotros4 fotoNosotros4"
             
-            "fotoNosotros6"
-            "textoNosotros6" 
+            "fotoNosotros5 textoNosotros5" 
+            
+            "textoNosotros6 fotoNosotros6"
+
             ;
         
             justify-content: center;

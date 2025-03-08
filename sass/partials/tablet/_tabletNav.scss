@@ -1,6 +1,6 @@
 
 
-@media( max-width: $widtMovil ){
+@media( max-width: $widtTablet ){
 
 
     
@@ -8,12 +8,12 @@
 
 
         width: 100%;
-        max-width: $widtMovil;
+        max-width: $widtTablet;
 
 
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
 

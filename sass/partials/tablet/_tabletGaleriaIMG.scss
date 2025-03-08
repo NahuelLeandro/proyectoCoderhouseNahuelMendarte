@@ -1,11 +1,11 @@
 
 
-@media( max-width: $widtMovil ){
+@media( max-width: $widtTablet ){
 
     .galeria_imagenes{
 
         width: 100%;
-        max-width: $widtMovil;
+        max-width: $widtTablet;
         
 
         background-color: $colorTerciario;
