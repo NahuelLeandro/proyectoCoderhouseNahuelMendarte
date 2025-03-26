@@ -3,6 +3,10 @@
 
 /* MINI GALERIA DE IMG*/
 .galeria_imagenes{
+
+    position: relative;
+    overflow: hidden;
+
     background-color: $colorTerciario;
     margin: 20px 0px;
     display: flex;

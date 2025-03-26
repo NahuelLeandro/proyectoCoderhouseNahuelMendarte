@@ -47,6 +47,8 @@ p {
 }
 
 .navegador_y_logo {
+  position: relative;
+  overflow: hidden;
   width: 100%;
   background-image: linear-gradient(to left, rgba(0, 255, 255, 0.5), rgba(0, 255, 255, 0.05));
 }
@@ -148,6 +150,8 @@ footer {
   width: 100%;
 }
 footer .footer {
+  position: relative;
+  overflow: hidden;
   background-color: rgba(0, 255, 255, 0.5);
   height: 150px;
   display: flex;
@@ -174,6 +178,8 @@ footer .footer .footer_2 {
 
 /* MINI GALERIA DE IMG*/
 .galeria_imagenes {
+  position: relative;
+  overflow: hidden;
   background-color: rgba(0, 0, 255, 0.2);
   margin: 20px 0px;
   display: flex;
@@ -633,6 +639,7 @@ footer .footer .footer_2 {
     border-bottom: none;
     border-top: none;
     justify-content: start;
+    height: 900px;
   }
   .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos .seccionImagenYDescripcionProductos_carousel {
     width: 80%;
@@ -771,7 +778,7 @@ footer .footer .footer_2 {
   .mainNosotros .contenedor-grid-nosotros {
     display: grid;
     grid-template-columns: 90%;
-    grid-template-rows: 700px 400px 500px 400px 350px 400px 300px 400px 300px 400px 300px 400px 250px;
+    grid-template-rows: 800px 450px 550px 450px 400px 450px 350px 450px 350px 450px 350px 450px 300px;
     grid-template-areas: "tituloDescripcion" "fotoNosotros1" "textoNosotros1" "fotoNosotros2" "textoNosotros2" "fotoNosotros3" "textoNosotros3" "fotoNosotros4" "textoNosotros4" "fotoNosotros5" "textoNosotros5" "fotoNosotros6" "textoNosotros6";
     justify-content: center;
     align-items: center;
@@ -806,6 +813,7 @@ footer .footer .footer_2 {
     border-bottom: none;
     border-top: none;
     justify-content: start;
+    height: 900px;
   }
   .mainProductos .contenedorMainProductos .seccionImagenYDescripcionProductos .seccionImagenYDescripcionProductos_carousel {
     width: 80%;
@@ -823,7 +831,7 @@ footer .footer .footer_2 {
   .mainServicios .contenedor-grid-servicios {
     display: grid;
     grid-template-columns: 90%;
-    grid-template-rows: 500px 400px 450px 450px 400px 350px 450px;
+    grid-template-rows: 500px 400px 450px 450px 400px 350px 500px;
     grid-template-areas: "tituloYDescripcion " "servicio1Foto" "servicio1Descripcion" "servicio2Foto" "servicio2Descripcion" "servicio3Foto" "servicio3Descripcion";
     justify-content: center;
     /*acomoda a todos los hijos*/

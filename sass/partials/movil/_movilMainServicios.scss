@@ -10,7 +10,7 @@
         .contenedor-grid-servicios{
             display: grid;
             grid-template-columns: 90%;
-            grid-template-rows: 500px 400px 450px 450px 400px 350px 450px ; //repeat(6, 400px)
+            grid-template-rows: 500px 400px 450px 450px 400px 350px 500px ; //repeat(6, 400px)
         
             grid-template-areas: 
             "tituloYDescripcion "
