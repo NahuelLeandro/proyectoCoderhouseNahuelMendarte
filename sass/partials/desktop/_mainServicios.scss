@@ -22,6 +22,9 @@
 
 .mainServicios{
 
+    position: relative;
+    overflow: hidden;
+
 
     .contenedor-grid-servicios{
         display: grid;

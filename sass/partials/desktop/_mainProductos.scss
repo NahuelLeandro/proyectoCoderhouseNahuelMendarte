@@ -2,6 +2,9 @@
 
 .mainProductos{
 
+    position: relative;
+    overflow: hidden;
+
     .contenedorMainProductos{
         display: flex;
         flex-direction: column;
